@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AC-EmailService-API", "AC-EmailService-API.csproj", "{57891CBF-C6A5-434F-AB25-60A9CD554ED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AC-EmailService-API-Domain-Layer", "..\AC-EmailService-API-Domain-Layer\AC-EmailService-API-Domain-Layer.csproj", "{3925E0B0-747C-418D-A70C-E67F1C12BF93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AC-EmailService-API-Service-Layer", "..\AC-EmailService-API-Service-Layer\AC-EmailService-API-Service-Layer.csproj", "{FAA067B8-8085-4F8B-A812-8C2ECC862B3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AC-EmailService-API-Repo-Layer", "..\AC-EmailService-API-Repo-Layer\AC-EmailService-API-Repo-Layer.csproj", "{83CE5F82-3774-4AFC-A4A0-12A458C81736}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57891CBF-C6A5-434F-AB25-60A9CD554ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57891CBF-C6A5-434F-AB25-60A9CD554ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57891CBF-C6A5-434F-AB25-60A9CD554ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57891CBF-C6A5-434F-AB25-60A9CD554ED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3925E0B0-747C-418D-A70C-E67F1C12BF93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3925E0B0-747C-418D-A70C-E67F1C12BF93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3925E0B0-747C-418D-A70C-E67F1C12BF93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3925E0B0-747C-418D-A70C-E67F1C12BF93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAA067B8-8085-4F8B-A812-8C2ECC862B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAA067B8-8085-4F8B-A812-8C2ECC862B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAA067B8-8085-4F8B-A812-8C2ECC862B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAA067B8-8085-4F8B-A812-8C2ECC862B3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83CE5F82-3774-4AFC-A4A0-12A458C81736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83CE5F82-3774-4AFC-A4A0-12A458C81736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83CE5F82-3774-4AFC-A4A0-12A458C81736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83CE5F82-3774-4AFC-A4A0-12A458C81736}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A0DA4AF-60DC-43B0-A02C-EDC9649D9E1E}
+	EndGlobalSection
+EndGlobal
